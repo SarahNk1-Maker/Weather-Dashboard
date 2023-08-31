@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <img src="/Users/sarahnaveed/Desktop/weather-app.png"></img>
+    <form id="city-form">
+        <div class="container">
+            <div class="city-input">Enter City </div>
+            <div class="seperator"></div>
+            <input type="text" id="city-input" required>
+            <button type="submit">Search</button>
+            
+            <div class="seperator"></div>
+            <button type="submit" id="location-submit">Use Current Location</button>
+        </div>
+    </form>
+    <div id="search-history">
+        <!-- Search history will be displayed here -->
+    </div>
+    <div id="current-weather">
+        <div class="details"></div>
+        <!-- Weather data will be displayed here -->
+    </div>
+    <div id="forecast">
+        <!-- 5-day forecast will be displayed here -->
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
