@@ -11,7 +11,7 @@ const searchHistoryArray = [];
 // Function to fetch weather data for a city
 async function fetchWeather(city) { 
     try {
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`);
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=${APIKey}`);
         const data = await response.json();
 
         // Check if the response contains valid data
