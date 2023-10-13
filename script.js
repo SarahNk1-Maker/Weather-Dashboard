@@ -3,7 +3,7 @@ const cityInput = document.getElementById("city-input");
 const searchHistory = document.getElementById("search-history");
 const currentWeather = document.getElementById("current-weather");
 const forecast = document.getElementById("forecast");
-const APIKey = "aebb355032b6976ddc86485f38b7442d";
+const APIKey = ""; //taking out the api key for safety reasons 
 
 // Store search history in an array
 const searchHistoryArray = [];
