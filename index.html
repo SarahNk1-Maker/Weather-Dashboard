@@ -7,29 +7,36 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <h1>Weather Dashboard</h1>
-    <img src="/Users/sarahnaveed/Desktop/weather-app.png"></img>
+    <section>
+        <h1>Weather Dashboard</h1>
+    </section>
     <form id="city-form">
         <div class="container">
-            <div class="city-input">Enter City </div>
+            <div class="city-input">Enter City</div>
             <div class="seperator"></div>
             <input type="text" id="city-input" required>
             <button type="submit">Search</button>
-            
             <div class="seperator"></div>
-            <button type="submit" id="location-submit">Use Current Location</button>
         </div>
     </form>
-    <div id="search-history">
-       
-    </div>
+   
     <div id="current-weather">
-        <div class="details"></div>
-      
+        <p id="temperature">Temperature: N/A</p>
+        <p id="feels-like">Feels Like: N/A</p>
     </div>
-    <div id="forecast">
-        <!-- 5-day forecast will be displayed here -->
+    <div id="search-history">
+        <!-- Search history will be displayed here -->
     </div>
-    <script src="./js/script.js"></script>
+    
+   
+    <footer>
+        <div class="footer-content">
+            <div class="made-with-emoji">
+                Made with 🚀
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
+

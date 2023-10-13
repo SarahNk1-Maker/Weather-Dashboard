@@ -1,89 +1,90 @@
-/* Reset some default styles */
-body, h1, h2, h3, h4, p {
+/* style.css */
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-/* Set a background color and text color */
-body {
     background-color: #f0f0f0;
-    color: #333;
-    font-family: Arial, sans-serif;
 }
 
-/* Center the title */
-h1 {
+section {
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
-    margin-top: 20px;
+    padding: 20px;
 }
 
-/* Style the container for city input */
+h1 {
+    font-size: 2em;
+}
+
 .container {
+   background-color: white;
     text-align: center;
     margin: 20px auto;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Style the city input field */
+.city-input {
+    font-size: 1.2em;
+}
+
 #city-input {
-    padding: 5px;
+    padding: 10px;
     width: 200px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-/* Style the buttons */
 button {
-    padding: 5px 10px;
-    margin-left: 10px;
-    background-color: #007bff;
+    background-color: #3498db;
     color: #fff;
     border: none;
     border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 
-/* Style the search history section */
+button:hover {
+    background-color: #2080c7;
+}
+
 #search-history {
-    text-align: center;
-    margin-top: 20px;
+    background-color:white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
 }
 
-/* Style the current weather section */
 #current-weather {
-    text-align: center;
-    margin-top: 20px;
+   background-color: #fff;
     padding: 20px;
-    background-color: #fff;
+    margin: 20px auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
 }
 
-/* Style the forecast section */
-#forecast {
+footer {
+    background-color: #3498db;
+    color: #fff;
     text-align: center;
-    margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-/* Style forecast day elements */
-.forecast-day {
-    margin: 10px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
 }
 
-/* Style the separator */
-.seperator {
-    margin: 20px 0;
-    border-top: 1px solid #ccc;
+.footer-links a:hover {
+    text-decoration: underline;
 }
 
-/* Add more styles as needed for specific elements */
