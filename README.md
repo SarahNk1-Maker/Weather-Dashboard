@@ -1,25 +1,40 @@
-# Weather-Dashboard
-## User Story
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+# Weather-Network-007
 
-## Acceptance Criteria
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+## Description
+This web is built on HTML,CSS and Javascript. It ia using webAPI key from  weather  ntwork   to detect the weather around user.
 
-## Mock-Up
-![Screenshot 2023-08-31 at 3 41 22 PM](https://github.com/SarahNk1-Maker/Weather-Dashboard/assets/114023598/522e71ae-fe39-4c6d-a951-8bc7bf86286e)
+## Installation
+There is no installation for this application- visit the page, enter your desired location.
+
+## Usage
+N/a
+
+## License
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
+This application is covered under the MIT license.
+
+## Contributing
+Clone the repository to local machine,make a branch and make it better.
+
+## Tests
+N/A
+
+## Questions
+For questions or feedback, please contact me via GitHub or email:
+- GitHub: [SarahNk1-maker](https://github.com/SarahNk1-maker)
+- Email: SarahNaveed216@gmail.com
+
+## Demo
+![Alt text](<Screenshot 2023-10-12 at 11.33.31 PM-1.png>)
+  
